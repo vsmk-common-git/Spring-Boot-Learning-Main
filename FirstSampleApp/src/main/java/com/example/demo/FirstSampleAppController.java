@@ -10,7 +10,7 @@ public class FirstSampleAppController {
 
 	@RequestMapping("/Hello")
 	public String sayHello() {
-		return "hello!";
+		return "<h1>hello! UserApp</h1>";
 	}
 	
 	
