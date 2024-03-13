@@ -28,7 +28,7 @@ There are mainly 2 types
 
 	Structure:
 <Envelop xmlns=?http://schemas.xmlsoap.org/soap/envelop/?>  
-<Header>
+<Header/>
     <Body>  
         <getCourseDetailRequest xmlns=?http://udemy.com/course?>  
             <id>course1</id>  
