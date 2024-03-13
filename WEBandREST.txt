@@ -1,0 +1,51 @@
+1)What is an Webservice?
+
+A web service is a standardized way for two electronic devices or software applications to communicate with each other over the internet.
+It typically involves a client-server architecture where the client sends a request to the server, and the server processes the request and sends back a response.This communication is going through Web Services.
+Web Services are language independent way of Communication.It is a collection of Standards or protocols for exchanging info b/w 2 devices/Applications.
+
+
+2)What is am API?
+
+Application Programming Interface, is a set of rules, protocols that allows different software applications to communicate and interact with each other.
+ 
+
+**WEB SERVICE VS API
+
+1.Webservice is a specific type of API that establishes communication over a network.They typically use standarized protocols such as SOAP/REST.
+
+2.APIS can take various forms such as web apis and library apis etc...
+
+3.web services are mainly that focuses on enabling communication over the web.APIs functions beyond web based communication.
+
+
+**WebService Types and their structures
+
+There are mainly 2 types 
+
+1.SOAP(Simple Object Access Protocol):
+	These protocols are based on XML which is a lightweight data exchange language. These protocols are independent of language and can be run on any platform.
+
+	Structure:
+<Envelop xmlns=?http://schemas.xmlsoap.org/soap/envelop/?>  
+<Header>
+    <Body>  
+        <getCourseDetailRequest xmlns=?http://udemy.com/course?>  
+            <id>course1</id>  
+        <getCourseDetailRequest>  
+    </Body>  
+</Envelop>  
+		
+
+2.RESTful web services:
+	 It stands for Representational State Transfer. They are also language and platform-independent and are faster in comparison to SOAP.RESTful web services return data in JSON format or XML  format.These web services create the object and send the state of the object in response to the client’s requests.
+
+	GET: It reads a resource.
+        PUT: It updates an existing resource.
+        POST: It creates a new resource.
+        DELETE: It deletes the resource.
+
+REST API and corresponding terminology:
+
+CRUD:CREATE(post),READ(GET),UPDATE(put),DELETE(delete)
+
